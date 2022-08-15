@@ -1,0 +1,94 @@
+/* Here we go */
+
+body{
+    background: url(../img/other/back-reg.jpg) fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us{
+    background: url(../img/other/img.png) no-repeat left;
+    background-size: 50%;
+    background-color: #fff;
+    margin: 6% 0;
+    overflow: hidden;
+    padding: 100px 20px;
+    box-shadow: 0 0 12px 8px rgba(0,0,0,0.05);
+    border-radius: 25px;
+}
+
+.inner-container{
+    width: 50%;
+    position: relative;
+    text-align: center;
+    float: right;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.inner-container .about-text{
+    text-align: justify;
+    line-height: 35px;
+    font-size: 15px;
+    padding: 16px;
+}
+
+.about-text a{
+    color: rgb(109, 109, 255);
+}
+
+.inner-container .social{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.social .social-icon{
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+.social-icon:nth-child(1) a{
+    color: green;
+}
+
+.social-icon:nth-child(2) a{
+    color: red;
+}
+
+.social-icon:nth-child(3) a{
+    color: rgb(100, 100, 247);
+}
+
+@media screen and (max-width: 1500px){
+    .inner-container{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .about-us{
+        background-size: 100%;
+        padding: 50px 20px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .about-us{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 30px;
+    }
+}

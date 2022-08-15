@@ -1,0 +1,18 @@
+body{
+    background: #fcfcfc !important;
+}
+
+.cart-box{
+    margin: 100px 0;
+    background: url('../img/other/back-reg.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px ;
+    box-shadow: 0 0 10px 10px rgba(0,0,0, 0.05);
+    text-align: center;
+}
+
+.cart-box table{
+    font-size: 13px;
+    text-align: center;
+}

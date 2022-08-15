@@ -1,0 +1,119 @@
+@font-face{
+    font-family: iransans;
+    src: url('../font/Iransans.eot') format('eot'),
+    url('../font/Iransans.ttf') format('ttf'),
+    url('../font/Iransans.woff') format('woff'),
+    url('../font/Iransans.woff2') format('woff2');
+    font-weight: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: iransans;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/other/back-reg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 0;
+    border-radius: 30px;
+}
+
+.reg-img{
+    width: 45%;
+    background: url('../img/other/img2.png') center;
+    background-size: cover;
+}
+
+.log-img{
+    width: 45%;
+    background: url('../img/other/img.png') center;
+    background-size: cover;
+}
+
+.card-body{
+    padding: 1rem;
+}
+
+.title{
+    margin-bottom: 1rem;
+}
+
+.form-box{
+    text-align: center;
+}
+
+.form-input{
+    position: relative;
+}
+
+.form-input input{
+    width: 60%;
+    margin: 5px 0;
+    padding: 7px 42px;
+    font-size: 13px;
+    box-shadow: none;
+    border: 1px solid #00000020 !important;
+    border-radius: 50px;
+    box-sizing: border-box;
+
+    outline: none;
+}
+
+.form-input span{
+    position: absolute;
+    top: 14px;
+    right: 22%;
+    color: #007bff;
+}
+
+.user-address{
+    font-size: 12px;
+    padding: 8px 16px;
+    margin: 5px 0;
+    border: 1px solid #00000020;
+    border-radius: 20px;
+}
+
+.custom-check .custom-control-input:checked ~ .custom-control-label::before{
+    background-color: #007bff !important;
+    border: 0px ;
+}
+
+.remember-me{
+    margin: 20px 0;
+}
+
+.submit-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 200px;
+    font-size: 13px;
+    padding: 8px 40px;
+    border-radius: 50px;
+}
+
+.have-acc{
+    font-size: 14px;
+}
+
+.have-acc a{
+    color: red !important;
+}
